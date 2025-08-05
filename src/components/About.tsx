@@ -59,35 +59,64 @@ const About = () => {
           </div>
 
           {/* Highlights Grid */}
-          <div className="grid grid-cols-2 gap-4 animate-slide-up delay-200">
+          <div className="grid grid-cols-2 gap-4 animate-slide-left">
             {highlights.map((highlight, index) => (
               <Card 
                 key={index} 
-                className="bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 group"
+                className="bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-500 group relative overflow-hidden animate-scale-in"
+                style={{ 
+                  animationDelay: `${400 + index * 100}ms`,
+                  animationDuration: `${600 + index * 100}ms`
+                }}
               >
-                <CardContent className="p-6 text-center">
-                  <highlight.icon className="w-8 h-8 text-primary mx-auto mb-3 group-hover:scale-110 transition-transform" />
-                  <h4 className="font-semibold mb-2">{highlight.label}</h4>
-                  <p className="text-sm text-muted-foreground">{highlight.description}</p>
+                {/* Floating background elements */}
+                <div className="absolute -top-4 -right-4 w-16 h-16 bg-primary/5 rounded-full group-hover:animate-float" />
+                <div className="absolute -bottom-2 -left-2 w-8 h-8 bg-primary-glow/10 rounded-full group-hover:animate-bounce-subtle" />
+                
+                <CardContent className="p-6 text-center relative z-10">
+                  <div className="relative mb-3">
+                    <highlight.icon className="w-8 h-8 text-primary mx-auto group-hover:scale-125 group-hover:animate-wiggle transition-all duration-300" />
+                    <div className="absolute inset-0 w-8 h-8 mx-auto group-hover:animate-glow-pulse opacity-50" />
+                  </div>
+                  <h4 className="font-semibold mb-2 group-hover:text-primary/90 transition-colors">
+                    {highlight.label}
+                  </h4>
+                  <p className="text-sm text-muted-foreground group-hover:text-foreground/80 transition-colors">
+                    {highlight.description}
+                  </p>
                 </CardContent>
+                
+                {/* Hover shimmer */}
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent translate-x-[-100%] group-hover:animate-shimmer" />
               </Card>
             ))}
           </div>
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 animate-fade-in delay-300">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 animate-fade-in" style={{ animationDelay: '600ms' }}>
           {[
             { number: "50+", label: "Projects Completed" },
             { number: "5+", label: "Years Experience" },
             { number: "20+", label: "Technologies" },
             { number: "100%", label: "Client Satisfaction" }
           ].map((stat, index) => (
-            <div key={index} className="text-center group">
-              <div className="text-3xl sm:text-4xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform">
-                {stat.number}
+            <div 
+              key={index} 
+              className="text-center group animate-slide-up relative"
+              style={{ animationDelay: `${700 + index * 100}ms` }}
+            >
+              {/* Background glow effect */}
+              <div className="absolute inset-0 bg-primary/5 rounded-xl blur-xl group-hover:bg-primary/10 transition-colors opacity-0 group-hover:opacity-100" />
+              
+              <div className="relative z-10 p-4 rounded-xl group-hover:bg-card/30 transition-all duration-300">
+                <div className="text-3xl sm:text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2 group-hover:scale-125 group-hover:animate-bounce-subtle transition-all duration-500">
+                  {stat.number}
+                </div>
+                <div className="text-muted-foreground group-hover:text-foreground/80 transition-colors text-sm font-medium">
+                  {stat.label}
+                </div>
               </div>
-              <div className="text-muted-foreground">{stat.label}</div>
             </div>
           ))}
         </div>

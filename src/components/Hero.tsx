@@ -17,63 +17,79 @@ const Hero = () => {
 
       {/* Animated background elements */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/20 rounded-full blur-3xl animate-glow-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary-glow/10 rounded-full blur-3xl animate-glow-pulse delay-1000"></div>
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/20 rounded-full blur-3xl animate-float"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary-glow/10 rounded-full blur-3xl animate-glow-pulse"></div>
+        <div className="absolute top-1/2 left-1/2 w-32 h-32 bg-primary-glow/15 rounded-full blur-2xl animate-bounce-subtle"></div>
+        
+        {/* Floating particles */}
+        <div className="absolute top-20 left-20 w-2 h-2 bg-primary rounded-full animate-float" style={{ animationDelay: '0s' }}></div>
+        <div className="absolute top-40 right-32 w-1 h-1 bg-primary-glow rounded-full animate-bounce-subtle" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute bottom-32 left-32 w-3 h-3 bg-primary/50 rounded-full animate-pulse-slow" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute bottom-20 right-20 w-1.5 h-1.5 bg-primary-glow/80 rounded-full animate-float" style={{ animationDelay: '3s' }}></div>
       </div>
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-        <div className="animate-fade-in">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+        <div className="animate-scale-in">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]">
             Alex Johnson
           </h1>
-          <h2 className="text-xl sm:text-2xl lg:text-3xl text-foreground/90 mb-4 font-light">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl text-foreground/90 mb-4 font-light animate-slide-up" style={{ animationDelay: '0.2s' }}>
             Fullstack Developer
           </h2>
-          <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed animate-fade-in" style={{ animationDelay: '0.4s' }}>
             Crafting exceptional digital experiences with modern technologies. 
             Passionate about clean code, scalable architecture, and innovative solutions.
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-slide-up">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-slide-up" style={{ animationDelay: '0.6s' }}>
           <Button 
             variant="default" 
             size="lg" 
-            className="bg-gradient-primary hover:shadow-glow transition-all duration-300 group"
+            className="bg-gradient-primary hover:shadow-glow transition-all duration-300 group relative overflow-hidden animate-bounce-subtle"
+            style={{ animationDelay: '2s' }}
           >
-            <Mail className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
-            Get In Touch
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:animate-shimmer" />
+            <Mail className="w-5 h-5 mr-2 group-hover:scale-110 group-hover:animate-wiggle transition-all duration-300 relative z-10" />
+            <span className="relative z-10">Get In Touch</span>
           </Button>
           <Button 
             variant="outline" 
             size="lg" 
-            className="border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
+            className="border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300 group relative"
           >
-            <Download className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+            <Download className="w-5 h-5 mr-2 group-hover:scale-110 group-hover:animate-bounce-subtle transition-all duration-300" />
             Download CV
+            <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
           </Button>
         </div>
 
         {/* Social Links */}
-        <div className="flex items-center justify-center gap-6 animate-slide-up delay-200">
+        <div className="flex items-center justify-center gap-6 animate-scale-in" style={{ animationDelay: '0.8s' }}>
           <a 
             href="#" 
-            className="p-3 rounded-full bg-card/50 backdrop-blur-sm hover:bg-primary/20 hover:shadow-glow transition-all duration-300 group"
+            className="p-3 rounded-full bg-card/50 backdrop-blur-sm hover:bg-primary/20 hover:shadow-glow transition-all duration-300 group relative overflow-hidden animate-float"
+            style={{ animationDelay: '3s' }}
           >
-            <Github className="w-6 h-6 group-hover:scale-110 transition-transform" />
+            <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <Github className="w-6 h-6 group-hover:scale-125 group-hover:animate-wiggle transition-all duration-300 relative z-10 group-hover:text-primary-foreground" />
           </a>
           <a 
             href="#" 
-            className="p-3 rounded-full bg-card/50 backdrop-blur-sm hover:bg-primary/20 hover:shadow-glow transition-all duration-300 group"
+            className="p-3 rounded-full bg-card/50 backdrop-blur-sm hover:bg-primary/20 hover:shadow-glow transition-all duration-300 group relative overflow-hidden animate-bounce-subtle"
+            style={{ animationDelay: '4s' }}
           >
-            <Linkedin className="w-6 h-6 group-hover:scale-110 transition-transform" />
+            <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <Linkedin className="w-6 h-6 group-hover:scale-125 group-hover:animate-wiggle transition-all duration-300 relative z-10 group-hover:text-primary-foreground" />
           </a>
           <a 
             href="#" 
-            className="p-3 rounded-full bg-card/50 backdrop-blur-sm hover:bg-primary/20 hover:shadow-glow transition-all duration-300 group"
+            className="p-3 rounded-full bg-card/50 backdrop-blur-sm hover:bg-primary/20 hover:shadow-glow transition-all duration-300 group relative overflow-hidden animate-pulse-slow"
+            style={{ animationDelay: '5s' }}
           >
-            <ExternalLink className="w-6 h-6 group-hover:scale-110 transition-transform" />
+            <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <ExternalLink className="w-6 h-6 group-hover:scale-125 group-hover:animate-wiggle transition-all duration-300 relative z-10 group-hover:text-primary-foreground" />
           </a>
         </div>
       </div>

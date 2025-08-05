@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Heart, ArrowUp } from "lucide-react";
+import { Github, Linkedin, Mail, Heart, ArrowUp, Instagram, MessageCircle } from "lucide-react"; // ✅ Added Instagram & WhatsApp icons
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -45,6 +45,22 @@ const Footer = () => {
               className="p-3 rounded-full bg-card/50 backdrop-blur-sm hover:bg-primary/20 hover:shadow-glow transition-all duration-300 group"
             >
               <Mail className="w-5 h-5 group-hover:scale-110 transition-transform" />
+            </a>
+            <a 
+              href="https://www.instagram.com/_t_h_e_dream_maker_/" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-card/50 backdrop-blur-sm hover:bg-primary/20 hover:shadow-glow transition-all duration-300 group"
+            >
+              <Instagram className="w-5 h-5 group-hover:scale-110 transition-transform" />
+            </a>
+            <a 
+              href="https://wa.me/918547470675"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-card/50 backdrop-blur-sm hover:bg-primary/20 hover:shadow-glow transition-all duration-300 group"
+            >
+              <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
             </a>
           </div>
 

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Download, ExternalLink, Instagram } from "lucide-react";
+import { Github, Linkedin, Mail, Download, ExternalLink, Instagram, MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
@@ -102,6 +102,13 @@ const Hero = () => {
           >
             <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <Instagram className="w-6 h-6 group-hover:scale-125 group-hover:animate-wiggle transition-all duration-300 relative z-10 group-hover:text-primary-foreground" />
+          </a>
+          <a 
+            href="https://wa.me/918547470675" target="_blank"
+            className="p-3 rounded-full bg-card/50 backdrop-blur-sm hover:bg-primary/20 hover:shadow-glow transition-all duration-300 group relative overflow-hidden animate-float"
+          >
+            <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <MessageCircle className="w-6 h-6 group-hover:scale-125 group-hover:animate-wiggle transition-all duration-300 relative z-10 group-hover:text-primary-foreground" />
           </a>
         </div>
       </div>

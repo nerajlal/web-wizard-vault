@@ -9,68 +9,68 @@ const Skills = () => {
       icon: Code,
       title: "Frontend Development",
       skills: [
-        { name: "React/Next.js", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Vue.js", level: 85 },
-        { name: "JavaScript ES6+", level: 95 }
+        { name: "React.js", level: 90 },
+        { name: "JavaScript ES6+", level: 92 },
+        { name: "HTML5 & CSS3", level: 95 },
+        { name: "Tailwind CSS", level: 90 }
       ]
     },
     {
       icon: Database,
       title: "Backend Development",
       skills: [
-        { name: "Node.js", level: 90 },
-        { name: "Python/Django", level: 85 },
-        { name: "PostgreSQL", level: 88 },
-        { name: "MongoDB", level: 82 }
+        { name: "Java (Spring Boot)", level: 88 },
+        { name: "PHP (Laravel)", level: 85 },
+        { name: "Node.js / Express", level: 80 },
+        { name: "Python (Django)", level: 75 }
       ]
     },
     {
       icon: Cloud,
-      title: "DevOps & Cloud",
+      title: "Database & Cloud",
       skills: [
-        { name: "AWS/Azure", level: 80 },
-        { name: "Docker", level: 85 },
-        { name: "CI/CD", level: 78 },
-        { name: "Kubernetes", level: 75 }
+        { name: "MySQL", level: 90 },
+        { name: "SQL", level: 82 },
+        { name: "Oracle", level: 70 },
+        { name: "Firebase", level: 68 }
       ]
     },
     {
       icon: Palette,
-      title: "Design & UX",
+      title: "Design & UI",
       skills: [
-        { name: "Figma", level: 85 },
-        { name: "Tailwind CSS", level: 95 },
-        { name: "SCSS/CSS3", level: 90 },
-        { name: "UI/UX Design", level: 80 }
+        { name: "Bootstrap", level: 90 },
+        { name: "Tailwind CSS", level: 90 },
+        { name: "UI/UX Design", level: 75 },
+        { name: "Responsive Layouts", level: 92 }
       ]
     },
     {
       icon: Wrench,
       title: "Tools & Technologies",
       skills: [
-        { name: "Git/GitHub", level: 95 },
-        { name: "Jest/Testing", level: 85 },
-        { name: "Webpack/Vite", level: 80 },
-        { name: "GraphQL", level: 78 }
+        { name: "Git & GitHub", level: 95 },
+        { name: "VS Code / Eclipse", level: 90 },
+        { name: "Postman / REST APIs", level: 85 },
+        { name: "Sublime / CLI Tools", level: 80 }
       ]
     },
     {
       icon: Users,
       title: "Soft Skills",
       skills: [
-        { name: "Project Management", level: 88 },
-        { name: "Team Leadership", level: 85 },
-        { name: "Communication", level: 92 },
-        { name: "Problem Solving", level: 95 }
+        { name: "Team Leadership", level: 88 },
+        { name: "Communication", level: 90 },
+        { name: "Problem Solving", level: 95 },
+        { name: "Hackathon Participation", level: 85 }
       ]
     }
   ];
 
   const technologies = [
-    "React", "Next.js", "TypeScript", "Node.js", "Python", "PostgreSQL", 
-    "MongoDB", "AWS", "Docker", "Kubernetes", "Figma", "Tailwind CSS",
-    "GraphQL", "Jest", "Git", "Agile", "Scrum", "REST APIs"
+    "Java", "Spring Boot", "React.js", "Node.js", "PHP", "Laravel",
+    "MongoDB", "MySQL", "Python", "Django", "Machine Learning", "HTML5",
+    "CSS3", "JavaScript", "Bootstrap", "Tailwind CSS", "Git", "VS Code", "REST APIs"
   ];
 
   return (
@@ -81,8 +81,7 @@ const Skills = () => {
             Skills & Expertise
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A comprehensive toolkit built through years of hands-on experience 
-            and continuous learning in the ever-evolving tech landscape.
+            Full stack developer proficient in Java, PHP, and ML, with practical experience gained from academic, self-learning, and real-world projects.
           </p>
         </div>
 
@@ -94,9 +93,7 @@ const Skills = () => {
               className="bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-500 animate-scale-in group relative overflow-hidden"
               style={{ animationDelay: `${index * 150}ms` }}
             >
-              {/* Hover shimmer effect */}
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/10 to-transparent translate-x-[-100%] group-hover:animate-shimmer" />
-              
               <CardHeader className="pb-4 relative z-10">
                 <CardTitle className="flex items-center gap-3 text-lg">
                   <div className="relative">

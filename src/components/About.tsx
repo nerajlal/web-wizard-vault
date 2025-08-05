@@ -4,10 +4,10 @@ import { Code2, Database, Globe, Smartphone, Target, Heart } from "lucide-react"
 
 const About = () => {
   const highlights = [
-    { icon: Code2, label: "Clean Code", description: "Writing maintainable, scalable solutions" },
-    { icon: Database, label: "Full Stack", description: "From database to deployment" },
-    { icon: Globe, label: "Web Technologies", description: "Modern frameworks & tools" },
-    { icon: Smartphone, label: "Responsive Design", description: "Mobile-first approach" }
+    { icon: Code2, label: "Clean Code", description: "Maintainable and optimized codebase" },
+    { icon: Database, label: "Full Stack", description: "Backend to frontend integration" },
+    { icon: Globe, label: "Java", description: "React, Node, Spring Boot, Laravel" },
+    { icon: Smartphone, label: "Responsive UI", description: "Seamless design across devices" }
   ];
 
   return (
@@ -18,8 +18,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate fullstack developer with 5+ years of experience building 
-            innovative web applications that solve real-world problems.
+            I'm a passionate full stack developer with strong foundations in Java, MERN stack, PHP, and Machine Learning. With hands-on experience from internships, hackathons, and academic projects, I love solving real-world challenges through tech.
           </p>
         </div>
 
@@ -32,9 +31,8 @@ const About = () => {
                 <h3 className="text-2xl font-semibold">My Mission</h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                To create digital experiences that not only meet technical requirements but 
-                exceed user expectations. I believe in the power of clean, efficient code 
-                and thoughtful design to transform ideas into reality.
+                To contribute to impactful web applications that bridge user needs with business goals.
+                I aim to use technologies like React, Spring Boot, and Laravel to build scalable, secure, and innovative systems.
               </p>
             </div>
 
@@ -44,17 +42,15 @@ const About = () => {
                 <h3 className="text-2xl font-semibold">What Drives Me</h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                I'm passionate about continuous learning, staying up-to-date with the latest 
-                technologies, and contributing to open-source projects. Every project is an 
-                opportunity to push boundaries and deliver exceptional results.
+                Continuous learning, hands-on experimentation, and team collaboration. I enjoy hackathons, exploring new tools like Machine Learning, and crafting full-stack apps that serve real communities.
               </p>
             </div>
 
             <div className="flex flex-wrap gap-2 pt-4">
-              <Badge variant="secondary">Problem Solver</Badge>
-              <Badge variant="secondary">Team Player</Badge>
-              <Badge variant="secondary">Tech Enthusiast</Badge>
-              <Badge variant="secondary">Agile Advocate</Badge>
+              <Badge variant="secondary">Java Full Stack</Badge>
+              <Badge variant="secondary">ML Enthusiast</Badge>
+              <Badge variant="secondary">Hackathon Winner</Badge>
+              <Badge variant="secondary">Open Source Contributor</Badge>
             </div>
           </div>
 
@@ -96,10 +92,10 @@ const About = () => {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 animate-fade-in" style={{ animationDelay: '600ms' }}>
           {[
-            { number: "50+", label: "Projects Completed" },
-            { number: "5+", label: "Years Experience" },
-            { number: "20+", label: "Technologies" },
-            { number: "100%", label: "Client Satisfaction" }
+            { number: "30+", label: "Academic Projects" },
+            { number: "5+", label: "Live Projects" },
+            { number: "20+", label: "Technologies Used" },
+            { number: "3+", label: "Hackathons Participated" }
           ].map((stat, index) => (
             <div 
               key={index} 

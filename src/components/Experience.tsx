@@ -5,80 +5,59 @@ import { Calendar, MapPin, Building, Award } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "TechVenture Solutions",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
-      type: "Full-time",
+      title: "Java Full Stack Intern",
+      company: "QSpiders, Kochi",
+      location: "Kochi, India",
+      period: "2024 - Present",
+      type: "Internship",
       description: [
-        "Led a team of 6 developers in building scalable microservices architecture",
-        "Reduced application load time by 40% through performance optimization",
-        "Implemented CI/CD pipelines that decreased deployment time by 60%",
-        "Mentored junior developers and established coding best practices"
+        "Developed responsive frontend interfaces using React.js.",
+        "Integrated backend APIs using Spring Boot.",
+        "Participated in technical discussions, debugging sessions, and peer code reviews.",
+        "Built secure and scalable modules aligned with client requirements."
       ],
-      technologies: ["React", "Node.js", "AWS", "PostgreSQL", "Docker", "Kubernetes"]
+      technologies: ["React", "Spring Boot", "MySQL", "Postman", "Git"]
     },
     {
-      title: "Full Stack Developer",
-      company: "InnovateCorp",
-      location: "Austin, TX",
-      period: "2020 - 2022",
-      type: "Full-time",
+      title: "Community Lead (IEDC) & Web Developer",
+      company: "Serve Techno Research",
+      location: "Kollam, India",
+      period: "2022 - 2024",
+      type: "Part-time",
       description: [
-        "Developed and maintained 15+ client-facing web applications",
-        "Collaborated with UX/UI team to implement responsive designs",
-        "Integrated third-party APIs and payment processing systems",
-        "Achieved 99.9% uptime through robust error handling and monitoring"
+        "Developed and maintained full-stack applications for real-world clients.",
+        "Worked on 30+ academic projects and 5+ live client projects using PHP, Java, and Python ML.",
+        "Created and managed databases using MySQL and optimized system design.",
+        "Led client meetings, participated in IEDC hackathons, and collaborated with industry experts.",
+        "Helped businesses boost their digital presence, resulting in a 70% increase in sales and user engagement."
       ],
-      technologies: ["Vue.js", "Python", "Django", "MongoDB", "Redis", "Azure"]
-    },
-    {
-      title: "Frontend Developer",
-      company: "StartupLab",
-      location: "Remote",
-      period: "2019 - 2020",
-      type: "Contract",
-      description: [
-        "Built responsive web applications for 10+ startup clients",
-        "Implemented modern frontend architectures using React and TypeScript",
-        "Optimized web applications for mobile devices and accessibility",
-        "Collaborated remotely with international development teams"
-      ],
-      technologies: ["React", "TypeScript", "SCSS", "Jest", "Webpack", "Figma"]
-    },
-    {
-      title: "Junior Web Developer",
-      company: "Digital Agency Pro",
-      location: "Los Angeles, CA",
-      period: "2018 - 2019",
-      type: "Full-time",
-      description: [
-        "Developed custom WordPress themes and plugins for client websites",
-        "Implemented responsive designs and cross-browser compatibility",
-        "Optimized website performance and SEO rankings",
-        "Provided technical support and maintenance for 50+ client websites"
-      ],
-      technologies: ["JavaScript", "PHP", "WordPress", "MySQL", "CSS3", "jQuery"]
+      technologies: ["PHP", "Laravel", "Java", "MySQL", "HTML/CSS", "ML", "JavaScript"]
     }
   ];
 
   const achievements = [
     {
-      title: "AWS Certified Solutions Architect",
-      issuer: "Amazon Web Services",
+      title: "Winner - 24-hour Hackathon",
+      issuer: "IEDC Kerala",
       date: "2023",
       icon: Award
     },
     {
-      title: "Top Performer Award",
-      issuer: "TechVenture Solutions",
+      title: "Campus Ambassador",
+      issuer: "Devtown, GDSC, Microsoft Learn",
       date: "2023",
       icon: Award
     },
     {
-      title: "Open Source Contributor",
-      issuer: "React Community",
-      date: "2022-Present",
+      title: "Freecodecamp Certifications",
+      issuer: "Freecodecamp.org",
+      date: "2023",
+      icon: Award
+    },
+    {
+      title: "2nd Place - Coding & Debugging Challenge",
+      issuer: "Intercollege Event",
+      date: "2022",
       icon: Award
     }
   ];
@@ -91,8 +70,7 @@ const Experience = () => {
             Experience & Achievements
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A track record of delivering exceptional results and driving innovation 
-            across diverse projects and technologies.
+            Practical experience from internships, real-world projects, and student leadership initiatives — building a strong foundation in full stack development.
           </p>
         </div>
 
@@ -192,11 +170,18 @@ const Experience = () => {
             {/* Education */}
             <div className="mt-12">
               <h3 className="text-xl font-semibold mb-4">Education</h3>
+              <Card className="bg-card/50 backdrop-blur-sm border-border/50 mb-4">
+                <CardContent className="p-4">
+                  <h4 className="font-semibold">Master of Computer Applications (MCA)</h4>
+                  <p className="text-sm text-muted-foreground">Sree Narayana Institute of Technology, Kollam (University of Kerala)</p>
+                  <p className="text-xs text-muted-foreground">2022 - 2024</p>
+                </CardContent>
+              </Card>
               <Card className="bg-card/50 backdrop-blur-sm border-border/50">
                 <CardContent className="p-4">
-                  <h4 className="font-semibold">Bachelor of Computer Science</h4>
-                  <p className="text-sm text-muted-foreground">University of California, Berkeley</p>
-                  <p className="text-xs text-muted-foreground">2014 - 2018</p>
+                  <h4 className="font-semibold">B.Sc. Computer Science</h4>
+                  <p className="text-sm text-muted-foreground">IHRD College of Applied Science, Kundara (University of Kerala)</p>
+                  <p className="text-xs text-muted-foreground">2019 - 2022</p>
                 </CardContent>
               </Card>
             </div>

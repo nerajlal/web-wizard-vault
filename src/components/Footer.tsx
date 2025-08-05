@@ -15,29 +15,33 @@ const Footer = () => {
           {/* Brand & Quote */}
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
-              Alex Johnson
+              Neraj Lal
             </h3>
             <p className="text-muted-foreground text-sm">
-              "Building the future, one line of code at a time."
+              "Crafting digital solutions with passion and precision."
             </p>
           </div>
 
           {/* Social Links */}
           <div className="flex justify-center space-x-4">
             <a 
-              href="#" 
+              href="https://github.com/nerajlal" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 rounded-full bg-card/50 backdrop-blur-sm hover:bg-primary/20 hover:shadow-glow transition-all duration-300 group"
             >
               <Github className="w-5 h-5 group-hover:scale-110 transition-transform" />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/nerajlal" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 rounded-full bg-card/50 backdrop-blur-sm hover:bg-primary/20 hover:shadow-glow transition-all duration-300 group"
             >
               <Linkedin className="w-5 h-5 group-hover:scale-110 transition-transform" />
             </a>
             <a 
-              href="#" 
+              href="mailto:nerajnerajlal@gmail.com"
               className="p-3 rounded-full bg-card/50 backdrop-blur-sm hover:bg-primary/20 hover:shadow-glow transition-all duration-300 group"
             >
               <Mail className="w-5 h-5 group-hover:scale-110 transition-transform" />
@@ -60,9 +64,9 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-border/50 text-center">
           <p className="text-muted-foreground text-sm flex items-center justify-center gap-2">
-            © {currentYear} Alex Johnson. Made with 
+            © {currentYear} Neraj Lal. Made with 
             <Heart className="w-4 h-4 text-red-500 animate-pulse" /> 
-            and lots of coffee.
+            and lots of code.
           </p>
         </div>
       </div>

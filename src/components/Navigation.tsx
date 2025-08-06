@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Menu, X, Download } from "lucide-react";
+import { Menu, X, View } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const Navigation = () => {
@@ -81,8 +81,8 @@ const Navigation = () => {
               size="sm" 
               className="border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
             >
-              <Download className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
-              Resume
+              <View className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
+              View Resume
             </Button>
           </div>
 
@@ -122,8 +122,8 @@ const Navigation = () => {
                   size="sm" 
                   className="w-full border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300"
                 >
-                  <Download className="w-4 h-4 mr-2" />
-                  Download Resume
+                  <View className="w-4 h-4 mr-2" />
+                  View Resume
                 </Button>
               </div>
             </div>

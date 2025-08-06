@@ -17,6 +17,9 @@ const Footer = () => {
             <h3 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
               Neraj Lal
             </h3>
+            <p className="text-muted-foreground text-sm mb-1">
+              PHP Full Stack Developer at Task19 Technologies
+            </p>
             <p className="text-muted-foreground text-sm">
               "Crafting digital solutions with passion and precision."
             </p>

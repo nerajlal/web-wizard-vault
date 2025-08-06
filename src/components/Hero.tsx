@@ -35,7 +35,7 @@ const Hero = () => {
             Neraj Lal S
           </h1>
           <h2 className="text-xl sm:text-2xl lg:text-3xl text-foreground/90 mb-4 font-light animate-slide-up" style={{ animationDelay: '0.2s' }}>
-            Full Stack Developer | PHP | Machine Learning | React & Spring Boot Enthusiast
+            Full Stack Developer | Laravel & Shopify Specialist | PHP | React | Java | SpringBoot
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed animate-fade-in" style={{ animationDelay: '0.4s' }}>
             A passionate full stack developer with real-world experience in React, Java, PHP, and ML.

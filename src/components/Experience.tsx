@@ -5,9 +5,23 @@ import { Calendar, MapPin, Building, Award } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      title: "PHP Full Stack Developer",
+      company: "Task19 Technologies",
+      location: "Kollam, Kerala",
+      period: "2025 - Present",
+      type: "Full-time",
+      description: [
+        "Developing and maintaining web apps using PHP, Laravel, and Shopify's Liquid engine.",
+        "Integrated third-party APIs and payment gateways across client stores.",
+        "Managed application deployment and configuration on DigitalOcean and Hostinger.",
+        "Collaborated with designers and backend teams to implement scalable and secure modules."
+      ],
+      technologies: ["PHP", "Laravel", "Shopify", "Liquid", "JavaScript", "DigitalOcean", "Hostinger"]
+    },
+    {
       title: "Java Full Stack Intern",
       company: "QSpiders, Kochi",
-      location: "Kochi, India",
+      location: "Kochi, Kerala",
       period: "2024 - 2025",
       type: "Internship",
       description: [
@@ -21,7 +35,7 @@ const Experience = () => {
     {
       title: "Community Lead (IEDC) & Web Developer",
       company: "Serve Techno Research",
-      location: "Kollam, India",
+      location: "Kollam, Kerala",
       period: "2022 - 2024",
       type: "Part-time",
       description: [

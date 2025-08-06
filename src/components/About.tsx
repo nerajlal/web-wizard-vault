@@ -5,8 +5,8 @@ import { Code2, Database, Globe, Smartphone, Target, Heart } from "lucide-react"
 const About = () => {
   const highlights = [
     { icon: Code2, label: "Clean Code", description: "Maintainable and optimized codebase" },
+    { icon: Globe, label: "PHP, Laravel, Shopify", description: "Experienced in Laravel, Liquid, and API integrations" },
     { icon: Database, label: "Full Stack", description: "Backend to frontend integration" },
-    { icon: Globe, label: "Java, PHP", description: "React, Node, Spring Boot, Laravel" },
     { icon: Smartphone, label: "Responsive UI", description: "Seamless design across devices" }
   ];
 
@@ -17,9 +17,11 @@ const About = () => {
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             About Me
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate full stack developer with strong foundations in Java, MERN stack, PHP, and Machine Learning. With hands-on experience from internships, hackathons, and academic projects, I love solving real-world challenges through tech.
-          </p>
+          <p className="text-muted-foreground leading-relaxed">
+  To build scalable, efficient, and client-focused applications using technologies like PHP, Laravel, Shopify, and React.
+  My goal is to enhance digital platforms and streamline business processes through full stack solutions.
+</p>
+
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">

@@ -6,7 +6,7 @@ const About = () => {
   const highlights = [
     { icon: Code2, label: "Clean Code", description: "Maintainable and optimized codebase" },
     { icon: Database, label: "Full Stack", description: "Backend to frontend integration" },
-    { icon: Globe, label: "Java", description: "React, Node, Spring Boot, Laravel" },
+    { icon: Globe, label: "Java, PHP", description: "React, Node, Spring Boot, Laravel" },
     { icon: Smartphone, label: "Responsive UI", description: "Seamless design across devices" }
   ];
 

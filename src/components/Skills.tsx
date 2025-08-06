@@ -9,10 +9,10 @@ const Skills = () => {
       icon: Code,
       title: "Frontend Development",
       skills: [
-        { name: "React.js", level: 90 },
-        { name: "JavaScript ES6+", level: 92 },
-        { name: "HTML5 & CSS3", level: 95 },
-        { name: "Tailwind CSS", level: 90 }
+        { name: "React.js", level: 80 },
+        { name: "JavaScript", level: 92 },
+        { name: "HTML5 & CSS3", level: 97 },
+        { name: "Tailwind CSS", level: 85 }
       ]
     },
     {
@@ -22,16 +22,16 @@ const Skills = () => {
         { name: "Java (Spring Boot)", level: 88 },
         { name: "PHP (Laravel)", level: 85 },
         { name: "Node.js / Express", level: 80 },
-        { name: "Python (Django)", level: 75 }
+        { name: "Python (Django)", level: 60 }
       ]
     },
     {
       icon: Cloud,
       title: "Database & Cloud",
       skills: [
-        { name: "MySQL", level: 90 },
-        { name: "SQL", level: 82 },
-        { name: "Oracle", level: 70 },
+        { name: "MySQL", level: 95 },
+        { name: "SQL", level: 90 },
+        { name: "Oracle", level: 85 },
         { name: "Firebase", level: 68 }
       ]
     },
@@ -50,9 +50,9 @@ const Skills = () => {
       title: "Tools & Technologies",
       skills: [
         { name: "Git & GitHub", level: 95 },
-        { name: "VS Code / Eclipse", level: 90 },
-        { name: "Postman / REST APIs", level: 85 },
-        { name: "Sublime / CLI Tools", level: 80 }
+        { name: "VS Code / Eclipse", level: 95 },
+        { name: "Postman / REST APIs", level: 75 },
+        { name: "Sublime / CLI Tools", level: 90 }
       ]
     },
     {
@@ -68,9 +68,9 @@ const Skills = () => {
   ];
 
   const technologies = [
-    "Java", "Spring Boot", "React.js", "Node.js", "PHP", "Laravel",
-    "MongoDB", "MySQL", "Python", "Django", "Machine Learning", "HTML5",
-    "CSS3", "JavaScript", "Bootstrap", "Tailwind CSS", "Git", "VS Code", "REST APIs"
+    "Java", "Spring Boot", "Hibernate", "JDBC", "Spring MVC", "React.js", "PHP", "Laravel",
+    "MySQL", "Python", "Django", "Machine Learning", "HTML5", "CSS3", "JavaScript", 
+    "Bootstrap", "Tailwind CSS", "Git", "REST APIs"
   ];
 
   return (

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Download, ExternalLink, Instagram, MessageCircle } from "lucide-react";
+import { Github, Linkedin, Mail, View, ExternalLink, Instagram, MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
@@ -63,8 +63,8 @@ const Hero = () => {
               size="lg" 
               className="border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300 group relative"
             >
-              <Download className="w-5 h-5 mr-2 group-hover:scale-110 group-hover:animate-pulse transition-all duration-300" />
-              Download Resume
+              <View className="w-5 h-5 mr-2 group-hover:scale-110 group-hover:animate-pulse transition-all duration-300" />
+              View Resume
               <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
             </Button>
           </a>

@@ -8,7 +8,7 @@ const Experience = () => {
       title: "Java Full Stack Intern",
       company: "QSpiders, Kochi",
       location: "Kochi, India",
-      period: "2024 - Present",
+      period: "2024 - 2025",
       type: "Internship",
       description: [
         "Developed responsive frontend interfaces using React.js.",
@@ -16,7 +16,7 @@ const Experience = () => {
         "Participated in technical discussions, debugging sessions, and peer code reviews.",
         "Built secure and scalable modules aligned with client requirements."
       ],
-      technologies: ["React", "Spring Boot", "MySQL", "Postman", "Git"]
+      technologies: ["React", "Hibernate", "JDBC", "Spring MVC", "Spring Boot", "MySQL", "Postman", "Git"]
     },
     {
       title: "Community Lead (IEDC) & Web Developer",
@@ -26,12 +26,12 @@ const Experience = () => {
       type: "Part-time",
       description: [
         "Developed and maintained full-stack applications for real-world clients.",
-        "Worked on 30+ academic projects and 5+ live client projects using PHP, Java, and Python ML.",
+        "Worked on 30+ academic projects and 5+ live client projects including E-commerce using PHP, Java, and Python ML.",
         "Created and managed databases using MySQL and optimized system design.",
         "Led client meetings, participated in IEDC hackathons, and collaborated with industry experts.",
         "Helped businesses boost their digital presence, resulting in a 70% increase in sales and user engagement."
       ],
-      technologies: ["PHP", "Laravel", "Java", "MySQL", "HTML/CSS", "ML", "JavaScript"]
+      technologies: ["PHP", "Laravel", "MySQL", "HTML/CSS", "ML", "JavaScript"]
     }
   ];
 

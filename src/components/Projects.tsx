@@ -26,7 +26,7 @@ const Projects = () => {
       features: ["Farmer registration", "Product listing", "Admin approval", "Retailer support"],
       category: "AgroTech",
       icon: Database,
-      github: "#",
+      github: "https://github.com/nerajlal/farming-assistant-in-php",
       demo: "#"
     },
     {
@@ -38,7 +38,7 @@ const Projects = () => {
       features: ["Welfare groups", "Orphan support", "Donation tracking", "Integrated services"],
       category: "Charity",
       icon: Globe,
-      github: "#",
+      github: "https://github.com/nerajlal/socialwelfare-in-python",
       demo: "#"
     }
   ];
@@ -113,14 +113,16 @@ const Projects = () => {
                 </div>
 
                 <div className="flex gap-2 pt-2">
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="flex-1 group/btn hover:bg-primary/10 hover:border-primary/30"
-                  >
-                    <Github className="w-4 h-4 mr-2 group-hover/btn:scale-110 transition-transform" />
-                    Code
-                  </Button>
+                  <a href={project.github} target="_blank">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="flex-1 group/btn hover:bg-primary/10 hover:border-primary/30"
+                    >
+                      <Github className="w-4 h-4 mr-2 group-hover/btn:scale-110 transition-transform" />
+                      Code
+                    </Button>
+                  </a>
                   <Button
                     variant="default"
                     size="sm"

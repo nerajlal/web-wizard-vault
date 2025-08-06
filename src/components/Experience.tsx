@@ -13,10 +13,10 @@ const Experience = () => {
       description: [
         "Developing and maintaining web apps using PHP, Laravel, and Shopify's Liquid engine.",
         "Integrated third-party APIs and payment gateways across client stores.",
-        "Managed application deployment and configuration on DigitalOcean and Hostinger.",
+        "Managed application deployment and configuration on DigitalOcean.",
         "Collaborated with designers and backend teams to implement scalable and secure modules."
       ],
-      technologies: ["PHP", "Laravel", "Shopify", "Liquid", "JavaScript", "DigitalOcean", "Hostinger"]
+      technologies: ["PHP", "Laravel", "Shopify", "JavaScript", "DigitalOcean"]
     },
     {
       title: "Java Full Stack Intern",
@@ -40,12 +40,11 @@ const Experience = () => {
       type: "Part-time",
       description: [
         "Developed and maintained full-stack applications for real-world clients.",
-        "Worked on 30+ academic projects and 5+ live client projects including E-commerce using PHP, Java, and Python ML.",
+        "Worked on 30+ academic projects and 5+ live client projects including E-commerce.",
         "Created and managed databases using MySQL and optimized system design.",
-        "Led client meetings, participated in IEDC hackathons, and collaborated with industry experts.",
-        "Helped businesses boost their digital presence, resulting in a 70% increase in sales and user engagement."
+        "Led client meetings, participated in IEDC hackathons, and collaborated with industry experts."
       ],
-      technologies: ["PHP", "Laravel", "MySQL", "HTML/CSS", "ML", "JavaScript"]
+      technologies: ["PHP", "Laravel", "MySQL", "HTML/CSS", "ML", "JavaScript", "Hostinger"]
     }
   ];
 
@@ -111,20 +110,18 @@ const Experience = () => {
                       {exp.type}
                     </Badge>
                   </div>
-                  <div className="space-y-2 text-muted-foreground">
-                    <div className="flex items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-muted-foreground text-sm mt-2">
+                    <div className="flex items-center gap-1">
                       <Building className="w-4 h-4" />
                       <span className="font-medium">{exp.company}</span>
                     </div>
-                    <div className="flex items-center gap-4 text-sm">
-                      <div className="flex items-center gap-1">
-                        <Calendar className="w-4 h-4" />
-                        <span>{exp.period}</span>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <MapPin className="w-4 h-4" />
-                        <span>{exp.location}</span>
-                      </div>
+                    <div className="flex items-center gap-1">
+                      <Calendar className="w-4 h-4" />
+                      <span>{exp.period}</span>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <MapPin className="w-4 h-4" />
+                      <span>{exp.location}</span>
                     </div>
                   </div>
                 </CardHeader>

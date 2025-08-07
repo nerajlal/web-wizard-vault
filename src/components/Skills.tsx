@@ -68,9 +68,9 @@ const Skills = () => {
   ];
 
   const technologies = [
-    "Java", "Spring Boot", "Hibernate", "JDBC", "Spring MVC", "React.js", "Oracle", "PHP", "Laravel",
-    "MySQL", "Python", "Django", "HTML5", "CSS3", "JavaScript", "Git",
-    "Tailwind CSS", "Machine Learning", "Bootstrap", "REST APIs"
+    "Java", "Spring Boot", "Hibernate", "JDBC", "Spring MVC", "React.js", "Oracle", "SQL", "PHP", "Laravel",
+    "MySQL", "Python", "Django", "HTML5", "CSS3", "JavaScript", "Git", "Tailwind CSS", "Machine Learning", 
+    "Bootstrap", "REST APIs", "Hostinger", "Digital Ocean"
   ];
 
   return (

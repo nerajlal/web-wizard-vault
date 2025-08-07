@@ -18,10 +18,9 @@ const About = () => {
             About Me
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-  To build scalable, efficient, and client-focused applications using technologies like PHP, Laravel, Shopify, and React.
-  My goal is to enhance digital platforms and streamline business processes through full stack solutions.
-</p>
-
+            To build scalable, efficient, and client-focused applications using technologies like PHP, Laravel, Shopify, and React.
+            My goal is to enhance digital platforms and streamline business processes through full stack solutions.
+          </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -49,7 +48,7 @@ const About = () => {
             </div>
 
             <div className="flex flex-wrap gap-2 pt-4">
-              <Badge variant="secondary">Java Full Stack</Badge>
+              <Badge variant="secondary">Full Stack Developer</Badge>
               <Badge variant="secondary">ML Enthusiast</Badge>
               <Badge variant="secondary">Hackathon Winner</Badge>
               <Badge variant="secondary">Open Source Contributor</Badge>
@@ -97,7 +96,7 @@ const About = () => {
             { number: "30+", label: "Academic Projects" },
             { number: "5+", label: "Live Projects" },
             { number: "20+", label: "Technologies Used" },
-            { number: "3+", label: "Hackathons Participated" }
+            { number: "3+", label: "Hackathons Winned" }
           ].map((stat, index) => (
             <div 
               key={index} 

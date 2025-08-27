@@ -50,7 +50,7 @@
       </a>
 
       <!-- Resume Download Button -->
-      <a href="#" title="Resume not available for download" download>
+      <a href="resume.php">
         <button
           class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 px-8 border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300 group relative"
         >

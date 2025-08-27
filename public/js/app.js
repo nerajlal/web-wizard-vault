@@ -68,4 +68,21 @@ document.addEventListener('DOMContentLoaded', function () {
             window.open(whatsappUrl, '_blank');
         });
     }
+
+    // Scroll-triggered animations
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate-fade-in');
+                entry.target.classList.remove('opacity-0');
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    const testimonialCards = document.querySelectorAll('.testimonial-card');
+    testimonialCards.forEach(card => {
+        observer.observe(card);
+    });
 });

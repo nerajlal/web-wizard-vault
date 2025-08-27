@@ -45,18 +45,24 @@
             Contact
             <span class="absolute inset-x-0 bottom-0 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
           </a>
+          <a href="blog.php" class="text-foreground/80 hover:text-primary px-3 py-2 text-sm font-medium transition-colors relative group">
+            Blog
+            <span class="absolute inset-x-0 bottom-0 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+          </a>
         </div>
       </div>
 
       <!-- CTA Button -->
       <div class="hidden md:block">
-        <button
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background h-9 px-3 border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
-        >
-          <!-- Icon: View -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2 group-hover:scale-110 transition-transform"><path d="M5 12s2.5-5 7-5 7 5 7 5-2.5 5-7 5-7-5-7-5z"/><circle cx="12" cy="12" r="3"/></svg>
-          View Resume
-        </button>
+        <a href="resume.php">
+          <button
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background h-9 px-3 border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
+          >
+            <!-- Icon: View -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2 group-hover:scale-110 transition-transform"><path d="M5 12s2.5-5 7-5 7 5 7 5-2.5 5-7 5-7-5-7-5z"/><circle cx="12" cy="12" r="3"/></svg>
+            View Resume
+          </button>
+        </a>
       </div>
 
       <!-- Mobile menu button -->
@@ -79,12 +85,15 @@
         <a href="#experience" class="text-foreground/80 hover:text-primary hover:bg-primary/10 block px-3 py-2 text-base font-medium rounded-md transition-colors">Experience</a>
         <a href="#projects" class="text-foreground/80 hover:text-primary hover:bg-primary/10 block px-3 py-2 text-base font-medium rounded-md transition-colors">Projects</a>
         <a href="#contact" class="text-foreground/80 hover:text-primary hover:bg-primary/10 block px-3 py-2 text-base font-medium rounded-md transition-colors">Contact</a>
+        <a href="blog.php" class="text-foreground/80 hover:text-primary hover:bg-primary/10 block px-3 py-2 text-base font-medium rounded-md transition-colors">Blog</a>
         <div class="pt-2 border-t border-border/50">
-          <button class="w-full inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background h-9 px-3 border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300">
-            <!-- Icon: View -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2"><path d="M5 12s2.5-5 7-5 7 5 7 5-2.5 5-7 5-7-5-7-5z"/><circle cx="12" cy="12" r="3"/></svg>
-            View Resume
-          </button>
+          <a href="resume.php" class="block w-full">
+            <button class="w-full inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 px-3 border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300">
+              <!-- Icon: View -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2"><path d="M5 12s2.5-5 7-5 7 5 7 5-2.5 5-7 5-7-5-7-5z"/><circle cx="12" cy="12" r="3"/></svg>
+              View Resume
+            </button>
+          </a>
         </div>
       </div>
     </div>

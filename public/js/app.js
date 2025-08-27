@@ -61,8 +61,11 @@ document.addEventListener('DOMContentLoaded', function () {
     if (contactForm) {
         contactForm.addEventListener('submit', function (e) {
             e.preventDefault();
-            console.log('Form submitted!');
-            // Here you could add code to show a success message to the user
+            const name = document.getElementById('name').value;
+            const message = document.getElementById('message').value;
+            const phoneNumber = '918547470675';
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(`Hi, I'm ${name}. ${message}`)}`;
+            window.open(whatsappUrl, '_blank');
         });
     }
 });

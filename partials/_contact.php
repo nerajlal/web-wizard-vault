@@ -17,27 +17,16 @@
         <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300">
           <div class="flex flex-col space-y-1.5 p-6">
             <h3 class="flex items-center gap-3 text-2xl font-semibold leading-none tracking-tight">
-              <!-- Icon: Send -->
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-primary"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
-              Send me a message
+              <!-- Icon: MessageCircle -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-primary"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+              Send me a WhatsApp message
             </h3>
           </div>
           <div class="p-6 pt-0">
             <form id="contact-form" action="#" method="POST" class="space-y-4">
-              <div class="grid grid-cols-2 gap-4">
-                <div>
-                  <label for="name" class="text-sm font-medium mb-2 block">Name</label>
-                  <input id="name" name="name" placeholder="Your name" required class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-background/50 border-border/50 focus:border-primary">
-                </div>
-                <div>
-                  <label for="email" class="text-sm font-medium mb-2 block">Email</label>
-                  <input id="email" name="email" type="email" placeholder="your.email@example.com" required class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-background/50 border-border/50 focus:border-primary">
-                </div>
-              </div>
-
               <div>
-                <label for="subject" class="text-sm font-medium mb-2 block">Subject</label>
-                <input id="subject" name="subject" placeholder="Project inquiry, collaboration, etc." required class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-background/50 border-border/50 focus:border-primary">
+                <label for="name" class="text-sm font-medium mb-2 block">Name</label>
+                <input id="name" name="name" placeholder="Your name" required class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-background/50 border-border/50 focus:border-primary">
               </div>
 
               <div>
@@ -48,7 +37,7 @@
               <button type="submit" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 px-8 w-full bg-gradient-primary hover:shadow-glow transition-all duration-300 group">
                 <!-- Icon: Send -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 mr-2 group-hover:scale-110 transition-transform"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
-                Send Message
+                Send on WhatsApp
               </button>
             </form>
           </div>

@@ -14,38 +14,38 @@
       <!-- LEFT COLUMN -->
       <div class="space-y-8 animate-slide-up">
         <!-- Contact Form -->
-        <div class="card bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300">
-          <div class="card-header">
-            <h3 class="card-title flex items-center gap-3">
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300">
+          <div class="flex flex-col space-y-1.5 p-6">
+            <h3 class="flex items-center gap-3 text-2xl font-semibold leading-none tracking-tight">
               <!-- Icon: Send -->
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-primary"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
               Send me a message
             </h3>
           </div>
-          <div class="card-body">
-            <form action="contact_handler.php" method="POST" class="space-y-4">
+          <div class="p-6 pt-0">
+            <form id="contact-form" action="#" method="POST" class="space-y-4">
               <div class="grid grid-cols-2 gap-4">
                 <div>
                   <label for="name" class="text-sm font-medium mb-2 block">Name</label>
-                  <input id="name" name="name" placeholder="Your name" required class="input bg-background/50 border-border/50 focus:border-primary w-full">
+                  <input id="name" name="name" placeholder="Your name" required class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-background/50 border-border/50 focus:border-primary">
                 </div>
                 <div>
                   <label for="email" class="text-sm font-medium mb-2 block">Email</label>
-                  <input id="email" name="email" type="email" placeholder="your.email@example.com" required class="input bg-background/50 border-border/50 focus:border-primary w-full">
+                  <input id="email" name="email" type="email" placeholder="your.email@example.com" required class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-background/50 border-border/50 focus:border-primary">
                 </div>
               </div>
 
               <div>
                 <label for="subject" class="text-sm font-medium mb-2 block">Subject</label>
-                <input id="subject" name="subject" placeholder="Project inquiry, collaboration, etc." required class="input bg-background/50 border-border/50 focus:border-primary w-full">
+                <input id="subject" name="subject" placeholder="Project inquiry, collaboration, etc." required class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-background/50 border-border/50 focus:border-primary">
               </div>
 
               <div>
                 <label for="message" class="text-sm font-medium mb-2 block">Message</label>
-                <textarea id="message" name="message" placeholder="Tell me about your project, goals, and how I can help..." rows="6" required class="textarea bg-background/50 border-border/50 focus:border-primary resize-none w-full"></textarea>
+                <textarea id="message" name="message" placeholder="Tell me about your project, goals, and how I can help..." rows="6" required class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-background/50 border-border/50 focus:border-primary resize-none"></textarea>
               </div>
 
-              <button type="submit" class="btn btn-lg w-full bg-gradient-primary hover:shadow-glow transition-all duration-300 group">
+              <button type="submit" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 px-8 w-full bg-gradient-primary hover:shadow-glow transition-all duration-300 group">
                 <!-- Icon: Send -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 mr-2 group-hover:scale-110 transition-transform"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
                 Send Message
@@ -55,8 +55,8 @@
         </div>
 
         <!-- Availability (moved here) -->
-        <div class="card bg-card/50 backdrop-blur-sm border-border/50">
-          <div class="card-body p-6 text-center">
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50">
+          <div class="p-6 text-center">
             <div class="flex items-center justify-center gap-3 mb-3">
               <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
               <span class="font-semibold">Available for new projects</span>
@@ -72,11 +72,11 @@
       <!-- RIGHT COLUMN -->
       <div class="space-y-8 animate-slide-up delay-200">
         <!-- Contact Info -->
-        <div class="card bg-card/50 backdrop-blur-sm border-border/50">
-          <div class="card-header">
-            <h3 class="card-title">Contact Information</h3>
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50">
+          <div class="flex flex-col space-y-1.5 p-6">
+            <h3 class="text-2xl font-semibold leading-none tracking-tight">Contact Information</h3>
           </div>
-          <div class="card-body space-y-4">
+          <div class="p-6 pt-0 space-y-4">
             <a href="mailto:nerajnerajlal@gmail.com" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 p-3 rounded-lg hover:bg-primary/10 transition-colors group">
               <!-- Icon: Mail -->
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-primary group-hover:scale-110 transition-transform"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
@@ -113,11 +113,11 @@
         </div>
 
         <!-- Social Links -->
-        <div class="card bg-card/50 backdrop-blur-sm border-border/50">
-          <div class="card-header">
-            <h3 class="card-title">Connect With Me</h3>
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50">
+          <div class="flex flex-col space-y-1.5 p-6">
+            <h3 class="text-2xl font-semibold leading-none tracking-tight">Connect With Me</h3>
           </div>
-          <div class="card-body space-y-3">
+          <div class="p-6 pt-0 space-y-3">
             <a href="https://github.com/nerajlal" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-3 rounded-lg hover:bg-primary/10 transition-colors group">
               <div class="flex items-center gap-4">
                 <!-- Icon: Github -->
@@ -127,7 +127,7 @@
                   <div class="text-sm text-muted-foreground">@nerajlal</div>
                 </div>
               </div>
-              <span class="badge badge-outline opacity-0 group-hover:opacity-100 transition-opacity">Follow</span>
+              <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground opacity-0 group-hover:opacity-100 transition-opacity">Follow</div>
             </a>
             <a href="https://www.linkedin.com/in/nerajlal" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-3 rounded-lg hover:bg-primary/10 transition-colors group">
               <div class="flex items-center gap-4">
@@ -138,7 +138,7 @@
                   <div class="text-sm text-muted-foreground">Neraj Lal</div>
                 </div>
               </div>
-              <span class="badge badge-outline opacity-0 group-hover:opacity-100 transition-opacity">Follow</span>
+              <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground opacity-0 group-hover:opacity-100 transition-opacity">Follow</div>
             </a>
           </div>
         </div>

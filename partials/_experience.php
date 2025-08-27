@@ -19,11 +19,11 @@
         </h3>
 
         <!-- Experience 1 -->
-        <div class="card bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 animate-slide-up group" style="animation-delay: 0ms;">
-          <div class="card-header">
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 animate-slide-up group" style="animation-delay: 0ms;">
+          <div class="flex flex-col space-y-1.5 p-6">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-              <h3 class="text-xl group-hover:text-primary transition-colors card-title">PHP Full Stack Developer</h3>
-              <span class="badge badge-outline self-start sm:self-center">Full-time</span>
+              <h3 class="text-xl group-hover:text-primary transition-colors text-2xl font-semibold leading-none tracking-tight">PHP Full Stack Developer</h3>
+              <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground self-start sm:self-center">Full-time</div>
             </div>
             <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-muted-foreground text-sm mt-2">
               <div class="flex items-center gap-1">
@@ -43,7 +43,7 @@
               </div>
             </div>
           </div>
-          <div class="card-body">
+          <div class="p-6 pt-0">
             <ul class="space-y-2 mb-4">
               <li class="text-muted-foreground flex items-start gap-2">
                 <span class="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></span>
@@ -63,20 +63,20 @@
               </li>
             </ul>
             <div class="flex flex-wrap gap-2">
-              <span class="badge badge-secondary text-xs">PHP</span>
-              <span class="badge badge-secondary text-xs">Laravel</span>
-              <span class="badge badge-secondary text-xs">Shopify</span>
-              <span class="badge badge-secondary text-xs">JavaScript</span>
-              <span class="badge badge-secondary text-xs">DigitalOcean</span>
+              <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">PHP</div>
+              <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">Laravel</div>
+              <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">Shopify</div>
+              <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">JavaScript</div>
+              <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">DigitalOcean</div>
             </div>
           </div>
         </div>
         <!-- Experience 2 -->
-        <div class="card bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 animate-slide-up group" style="animation-delay: 150ms;">
-          <div class="card-header">
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 animate-slide-up group" style="animation-delay: 150ms;">
+          <div class="flex flex-col space-y-1.5 p-6">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-              <h3 class="text-xl group-hover:text-primary transition-colors card-title">Java Full Stack Intern</h3>
-              <span class="badge badge-outline self-start sm:self-center">Internship</span>
+              <h3 class="text-xl group-hover:text-primary transition-colors text-2xl font-semibold leading-none tracking-tight">Java Full Stack Intern</h3>
+              <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground self-start sm:self-center">Internship</div>
             </div>
             <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-muted-foreground text-sm mt-2">
               <div class="flex items-center gap-1">
@@ -96,7 +96,7 @@
               </div>
             </div>
           </div>
-          <div class="card-body">
+          <div class="p-6 pt-0">
             <ul class="space-y-2 mb-4">
               <li class="text-muted-foreground flex items-start gap-2">
                 <span class="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></span>
@@ -116,23 +116,23 @@
               </li>
             </ul>
             <div class="flex flex-wrap gap-2">
-              <span class="badge badge-secondary text-xs">React</span>
-              <span class="badge badge-secondary text-xs">Hibernate</span>
-              <span class="badge badge-secondary text-xs">JDBC</span>
-              <span class="badge badge-secondary text-xs">Spring MVC</span>
-              <span class="badge badge-secondary text-xs">Spring Boot</span>
-              <span class="badge badge-secondary text-xs">MySQL</span>
-              <span class="badge badge-secondary text-xs">Postman</span>
-              <span class="badge badge-secondary text-xs">Git</span>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">React</div>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">Hibernate</div>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">JDBC</div>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">Spring MVC</div>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">Spring Boot</div>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">MySQL</div>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">Postman</div>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">Git</div>
             </div>
           </div>
         </div>
         <!-- Experience 3 -->
-        <div class="card bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 animate-slide-up group" style="animation-delay: 300ms;">
-          <div class="card-header">
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 animate-slide-up group" style="animation-delay: 300ms;">
+          <div class="flex flex-col space-y-1.5 p-6">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-              <h3 class="text-xl group-hover:text-primary transition-colors card-title">Community Lead (IEDC) & Web Developer</h3>
-              <span class="badge badge-outline self-start sm:self-center">Part-time</span>
+              <h3 class="text-xl group-hover:text-primary transition-colors text-2xl font-semibold leading-none tracking-tight">Community Lead (IEDC) & Web Developer</h3>
+              <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground self-start sm:self-center">Part-time</div>
             </div>
             <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-muted-foreground text-sm mt-2">
               <div class="flex items-center gap-1">
@@ -152,7 +152,7 @@
               </div>
             </div>
           </div>
-          <div class="card-body">
+          <div class="p-6 pt-0">
             <ul class="space-y-2 mb-4">
               <li class="text-muted-foreground flex items-start gap-2">
                 <span class="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></span>
@@ -172,13 +172,13 @@
               </li>
             </ul>
             <div class="flex flex-wrap gap-2">
-              <span class="badge badge-secondary text-xs">PHP</span>
-              <span class="badge badge-secondary text-xs">Laravel</span>
-              <span class="badge badge-secondary text-xs">MySQL</span>
-              <span class="badge badge-secondary text-xs">HTML/CSS</span>
-              <span class="badge badge-secondary text-xs">ML</span>
-              <span class="badge badge-secondary text-xs">JavaScript</span>
-              <span class="badge badge-secondary text-xs">Hostinger</span>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">PHP</div>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">Laravel</div>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">MySQL</div>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">HTML/CSS</div>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">ML</div>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">JavaScript</div>
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 text-xs">Hostinger</div>
             </div>
           </div>
         </div>
@@ -194,8 +194,8 @@
 
         <div class="space-y-4">
           <!-- Achievement 1 -->
-          <div class="card bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 animate-slide-up group" style="animation-delay: 600ms;">
-            <div class="card-body p-4">
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 animate-slide-up group" style="animation-delay: 600ms;">
+            <div class="p-4">
               <div class="flex items-start gap-3">
                 <!-- Icon: Award -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-primary mt-1 group-hover:scale-110 transition-transform"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
@@ -208,8 +208,8 @@
             </div>
           </div>
           <!-- Achievement 2 -->
-          <div class="card bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 animate-slide-up group" style="animation-delay: 750ms;">
-            <div class="card-body p-4">
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 animate-slide-up group" style="animation-delay: 750ms;">
+            <div class="p-4">
               <div class="flex items-start gap-3">
                 <!-- Icon: Award -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-primary mt-1 group-hover:scale-110 transition-transform"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
@@ -222,8 +222,8 @@
             </div>
           </div>
           <!-- Achievement 3 -->
-          <div class="card bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 animate-slide-up group" style="animation-delay: 900ms;">
-            <div class="card-body p-4">
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 animate-slide-up group" style="animation-delay: 900ms;">
+            <div class="p-4">
               <div class="flex items-start gap-3">
                 <!-- Icon: Award -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-primary mt-1 group-hover:scale-110 transition-transform"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
@@ -236,8 +236,8 @@
             </div>
           </div>
           <!-- Achievement 4 -->
-          <div class="card bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 animate-slide-up group" style="animation-delay: 1050ms;">
-            <div class="card-body p-4">
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-300 animate-slide-up group" style="animation-delay: 1050ms;">
+            <div class="p-4">
               <div class="flex items-start gap-3">
                 <!-- Icon: Award -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-primary mt-1 group-hover:scale-110 transition-transform"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
@@ -254,15 +254,15 @@
         <!-- Education -->
         <div class="mt-12">
           <h3 class="text-xl font-semibold mb-4">Education</h3>
-          <div class="card bg-card/50 backdrop-blur-sm border-border/50 mb-4">
-            <div class="card-body p-4">
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 mb-4">
+            <div class="p-4">
               <h4 class="font-semibold">Master of Computer Applications (MCA)</h4>
               <p class="text-sm text-muted-foreground">Sree Narayana Institute of Technology, Kollam (University of Kerala)</p>
               <p class="text-xs text-muted-foreground">2022 - 2024</p>
             </div>
           </div>
-          <div class="card bg-card/50 backdrop-blur-sm border-border/50">
-            <div class="card-body p-4">
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50">
+            <div class="p-4">
               <h4 class="font-semibold">B.Sc. Computer Science</h4>
               <p class="text-sm text-muted-foreground">IHRD College of Applied Science, Kundara (University of Kerala)</p>
               <p class="text-xs text-muted-foreground">2019 - 2022</p>

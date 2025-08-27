@@ -37,19 +37,19 @@
         </div>
 
         <div class="flex flex-wrap gap-2 pt-4">
-          <span class="badge badge-secondary">Full Stack Developer</span>
-          <span class="badge badge-secondary">ML Enthusiast</span>
-          <span class="badge badge-secondary">Hackathon Winner</span>
-          <span class="badge badge-secondary">Open Source Contributor</span>
+          <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Full Stack Developer</div>
+          <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">ML Enthusiast</div>
+          <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Hackathon Winner</div>
+          <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">Open Source Contributor</div>
         </div>
       </div>
 
       <!-- Highlights Grid -->
       <div class="grid grid-cols-2 gap-4 animate-slide-left">
-        <div class="card bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-500 group relative overflow-hidden animate-scale-in" style="animation-delay: 400ms; animation-duration: 600ms;">
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-500 group relative overflow-hidden animate-scale-in" style="animation-delay: 400ms; animation-duration: 600ms;">
           <div class="absolute -top-4 -right-4 w-16 h-16 bg-primary/5 rounded-full group-hover:animate-float"></div>
           <div class="absolute -bottom-2 -left-2 w-8 h-8 bg-primary-glow/10 rounded-full group-hover:animate-bounce-subtle"></div>
-          <div class="card-body p-6 text-center relative z-10">
+          <div class="p-6 text-center relative z-10">
             <div class="relative mb-3">
                 <!-- Icon: Code2 -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8 text-primary mx-auto group-hover:scale-125 group-hover:animate-wiggle transition-all duration-300"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>
@@ -60,10 +60,10 @@
           </div>
           <div class="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent translate-x-[-100%] group-hover:animate-shimmer"></div>
         </div>
-        <div class="card bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-500 group relative overflow-hidden animate-scale-in" style="animation-delay: 500ms; animation-duration: 700ms;">
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-500 group relative overflow-hidden animate-scale-in" style="animation-delay: 500ms; animation-duration: 700ms;">
           <div class="absolute -top-4 -right-4 w-16 h-16 bg-primary/5 rounded-full group-hover:animate-float"></div>
           <div class="absolute -bottom-2 -left-2 w-8 h-8 bg-primary-glow/10 rounded-full group-hover:animate-bounce-subtle"></div>
-          <div class="card-body p-6 text-center relative z-10">
+          <div class="p-6 text-center relative z-10">
             <div class="relative mb-3">
                 <!-- Icon: Globe -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8 text-primary mx-auto group-hover:scale-125 group-hover:animate-wiggle transition-all duration-300"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
@@ -74,10 +74,10 @@
           </div>
           <div class="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent translate-x-[-100%] group-hover:animate-shimmer"></div>
         </div>
-        <div class="card bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-500 group relative overflow-hidden animate-scale-in" style="animation-delay: 600ms; animation-duration: 800ms;">
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-500 group relative overflow-hidden animate-scale-in" style="animation-delay: 600ms; animation-duration: 800ms;">
           <div class="absolute -top-4 -right-4 w-16 h-16 bg-primary/5 rounded-full group-hover:animate-float"></div>
           <div class="absolute -bottom-2 -left-2 w-8 h-8 bg-primary-glow/10 rounded-full group-hover:animate-bounce-subtle"></div>
-          <div class="card-body p-6 text-center relative z-10">
+          <div class="p-6 text-center relative z-10">
             <div class="relative mb-3">
                 <!-- Icon: Database -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8 text-primary mx-auto group-hover:scale-125 group-hover:animate-wiggle transition-all duration-300"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
@@ -88,10 +88,10 @@
           </div>
           <div class="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent translate-x-[-100%] group-hover:animate-shimmer"></div>
         </div>
-        <div class="card bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-500 group relative overflow-hidden animate-scale-in" style="animation-delay: 700ms; animation-duration: 900ms;">
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 hover:shadow-glow transition-all duration-500 group relative overflow-hidden animate-scale-in" style="animation-delay: 700ms; animation-duration: 900ms;">
           <div class="absolute -top-4 -right-4 w-16 h-16 bg-primary/5 rounded-full group-hover:animate-float"></div>
           <div class="absolute -bottom-2 -left-2 w-8 h-8 bg-primary-glow/10 rounded-full group-hover:animate-bounce-subtle"></div>
-          <div class="card-body p-6 text-center relative z-10">
+          <div class="p-6 text-center relative z-10">
             <div class="relative mb-3">
                 <!-- Icon: Smartphone -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8 text-primary mx-auto group-hover:scale-125 group-hover:animate-wiggle transition-all duration-300"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>

@@ -51,7 +51,7 @@
       <!-- CTA Button -->
       <div class="hidden md:block">
         <button
-          class="border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300 group btn btn-outline btn-sm"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background h-9 px-3 border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
         >
           <!-- Icon: View -->
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2 group-hover:scale-110 transition-transform"><path d="M5 12s2.5-5 7-5 7 5 7 5-2.5 5-7 5-7-5-7-5z"/><circle cx="12" cy="12" r="3"/></svg>
@@ -61,7 +61,7 @@
 
       <!-- Mobile menu button -->
       <div class="md:hidden">
-        <button id="mobile-menu-button" class="text-foreground hover:text-primary btn btn-ghost btn-sm">
+        <button id="mobile-menu-button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-9 px-3 text-foreground hover:text-primary">
           <!-- Icon: Menu -->
           <svg id="mobile-menu-open-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
           <!-- Icon: X -->
@@ -80,7 +80,7 @@
         <a href="#projects" class="text-foreground/80 hover:text-primary hover:bg-primary/10 block px-3 py-2 text-base font-medium rounded-md transition-colors">Projects</a>
         <a href="#contact" class="text-foreground/80 hover:text-primary hover:bg-primary/10 block px-3 py-2 text-base font-medium rounded-md transition-colors">Contact</a>
         <div class="pt-2 border-t border-border/50">
-          <button class="w-full border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300 btn btn-outline btn-sm">
+          <button class="w-full inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background h-9 px-3 border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300">
             <!-- Icon: View -->
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2"><path d="M5 12s2.5-5 7-5 7 5 7 5-2.5 5-7 5-7-5-7-5z"/><circle cx="12" cy="12" r="3"/></svg>
             View Resume

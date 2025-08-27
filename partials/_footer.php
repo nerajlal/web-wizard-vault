@@ -40,7 +40,7 @@
 
       <!-- Back to Top -->
       <div class="text-center md:text-right">
-        <button id="back-to-top" class="btn btn-outline btn-sm border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300 group">
+        <button id="back-to-top" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 px-3 border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-300 group">
           <!-- Icon: ArrowUp -->
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2 group-hover:scale-110 transition-transform"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg>
           Back to Top

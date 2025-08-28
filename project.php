@@ -46,6 +46,7 @@ $project = isset($projects[$project_id]) ? $projects[$project_id] : null;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $project ? htmlspecialchars($project['title']) : 'Project Not Found'; ?> - Neraj Lal S</title>
+    <link rel="icon" href="public/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body class="bg-background text-foreground">

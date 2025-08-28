@@ -37,6 +37,7 @@ $post = isset($posts[$post_id]) ? $posts[$post_id] : null;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $post ? htmlspecialchars($post['title']) : 'Post Not Found'; ?> - Neraj Lal S</title>
+    <link rel="icon" href="public/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body class="bg-background text-foreground">

@@ -10,28 +10,25 @@
     </div>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <!-- Testimonial 1 -->
       <div class="testimonial-card rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 p-6 opacity-0 transition-opacity duration-1000">
-        <p class="text-muted-foreground mb-4">"Neraj is a very talented developer. He is a quick learner and a great team player. I would highly recommend him for any project."</p>
+        <p class="text-muted-foreground mb-4">"Neraj is a very talented developer. He is a quick learner and a great team player. I would highly recommend him for works."</p>
         <div>
-          <p class="font-semibold">Jane Doe</p>
-          <p class="text-sm text-muted-foreground">Project Manager, ABC Corp</p>
+          <p class="font-semibold">Soniya Soby</p>
+          <p class="text-sm text-muted-foreground">Dubai</p>
         </div>
       </div>
-      <!-- Testimonial 2 -->
       <div class="testimonial-card rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 p-6 opacity-0 transition-opacity duration-1000" style="transition-delay: 200ms;">
         <p class="text-muted-foreground mb-4">"I was impressed by Neraj's attention to detail and his ability to deliver high-quality work on time. He is a true professional."</p>
         <div>
-          <p class="font-semibold">John Smith</p>
-          <p class="text-sm text-muted-foreground">Lead Developer, XYZ Inc.</p>
+          <p class="font-semibold">Gokul Jayakumar</p>
+          <p class="text-sm text-muted-foreground">Bangalore</p>
         </div>
       </div>
-      <!-- Testimonial 3 -->
       <div class="testimonial-card rounded-lg border bg-card text-card-foreground shadow-sm bg-card/50 backdrop-blur-sm border-border/50 p-6 opacity-0 transition-opacity duration-1000" style="transition-delay: 400ms;">
         <p class="text-muted-foreground mb-4">"Working with Neraj was a pleasure. He is a creative problem solver and always willing to go the extra mile to get the job done."</p>
         <div>
-          <p class="font-semibold">Peter Jones</p>
-          <p class="text-sm text-muted-foreground">CEO, 123 Industries</p>
+          <p class="font-semibold">Kichu</p>
+          <p class="text-sm text-muted-foreground">Trivandrum</p>
         </div>
       </div>
     </div>

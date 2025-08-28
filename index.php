@@ -19,7 +19,9 @@
         <?php include 'partials/_projects.php'; ?>
         <?php include 'partials/_contact.php'; ?>
         <?php include 'partials/_testimonials.php'; ?>
-        <?php include 'partials/_blog.php'; ?>
+        <?php 
+            // include 'partials/_blog.php'; 
+        ?>
     </main>
 
     <?php include 'partials/_footer.php'; ?>

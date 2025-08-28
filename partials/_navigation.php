@@ -45,10 +45,10 @@
             Contact
             <span class="absolute inset-x-0 bottom-0 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
           </a>
-          <a href="blog.php" class="text-foreground/80 hover:text-primary px-3 py-2 text-sm font-medium transition-colors relative group">
+          <!-- <a href="blog.php" class="text-foreground/80 hover:text-primary px-3 py-2 text-sm font-medium transition-colors relative group">
             Blog
             <span class="absolute inset-x-0 bottom-0 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
-          </a>
+          </a> -->
         </div>
       </div>
 
